@@ -6,10 +6,10 @@ import { NavLink } from "react-router-dom"
 export const Navbar = () => {
   const navRef = useRef()
 
-  // navbar box-shodow Effect when scroll
+
   useEffect(() => {
     window.addEventListener("scroll", () => {
-      const scrollable = 30
+      const scrollable = 25
       var scrolled = window.scrollY
       if (Math.ceil(scrolled) >= scrollable) {
         navRef.current.classList.add("scroll-shadow")
@@ -30,7 +30,7 @@ export const Navbar = () => {
           <span>Book Appointment</span>
         </NavLink>
         <NavLink to={"/admin"} className="navLink">
-          <span className="material-icons-round">admin_panel_settings</span>
+          <span className="material-icons-round">setting</span>
           <span>Admin Panel</span>
         </NavLink>
       </div>
