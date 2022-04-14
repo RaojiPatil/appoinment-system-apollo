@@ -31,14 +31,14 @@
 .doctor1{
     width: 100%;
     height: 250px;
-    border: 1px solid red;
+    border: 1px solid rgb(8, 6, 6);
  
 }
 
 .doctor2{
     width: 100%;
     height: 250px;
-    border: 1px solid red;
+    border: 1px solid rgb(8, 6, 6);
     margin-left: 50px;
 }
 
@@ -46,13 +46,14 @@
 .doctor3{
     width: 100%;
     height: 250px;
-    border: 1px solid red;
+    border: 1px solid rgb(8, 6, 6);
     margin-left: 100px;
     margin-bottom: 50px;
 }
 
 .doctor1> img {
     width: 100%;
+    height: 100%;
 }
 .doctor2> img {
     width: 100%;
@@ -60,4 +61,5 @@
 }
 .doctor3> img {
     width: 100%;
+    height: 100%;
 }
